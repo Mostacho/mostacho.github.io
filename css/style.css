@@ -19,8 +19,8 @@ a, a:visited {
 
 .construction {
   display: block;
-  font-size: 27px;
-  margin: 40px auto 20px auto;
+  font-size: 30px;
+  margin: 40px auto 30px auto;
   text-align: center;
 }
 
@@ -30,13 +30,13 @@ a, a:visited {
 
 .contact .description {
   display: block;
-  font-size: 30px;
+  font-size: 28px;
 }
 
 .contact a {
   color: white;
   display: block;
-  font-size: 23px;
+  font-size: 21px;
   line-height: 29px;
   text-decoration: none;
 }
