@@ -1,0 +1,42 @@
+body {
+  background-image: url('../assets/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: Arial;
+}
+
+a, a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  display: block;
+  margin: 240px auto 0 auto;
+  width: 260px;
+}
+
+.construction {
+  display: block;
+  font-size: 27px;
+  margin: 40px auto 20px auto;
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact .description {
+  display: block;
+  font-size: 30px;
+}
+
+.contact .a {
+  color: white;
+  display: block;
+  font-size: 23px;
+  line-height: 29px;
+  text-decoration: none;
+}
