@@ -3,6 +3,7 @@ body {
   background-image: url('../assets/background.png');
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   color: white;
   font-family: Arial;
 }
@@ -156,7 +157,8 @@ nav li a {
 /* Producciones */
 
 .producciones {
-  margin: 20px;
+  padding: 20px;
+  background-color: #D6FFD4;
 }
 
 .producciones .col {
