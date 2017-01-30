@@ -11,21 +11,90 @@
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="js/mostacho.js"></script>
 </head>
 <body>
+  <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="custom-navbar-brand"><div class="logo-small"></div></a>
+        </div>
+        <!-- Collection of nav links and other content for toggling -->
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+            <div class="contact">
+              <a href="http://www.vimeo.com/mostachomusic" target="_blank"> <i class="fa fa-vimeo-square" aria-hidden="true"></i> </a>
+              <a href="http://www.facebook.com/Mostachomusic" target="_blank"> <i class="fa fa-facebook-square" aria-hidden="true"></i> </a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#home">INICIO</a></li>
+              <li><a href="#producciones">PRODUCCIONES</a></li>
+              <li><a href="#about">NOSOSTROS</a></li>
+              <li><a href="#contacto">CONTACTO</a></li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+  
+
   <div class="container-fluid home">
     <img src="assets/logo.png" alt="Mostacho" class="logo">
 
-    <span class="construction"> EN CONSTRUCCIÓN... </span>
-    <div class="contact">
-      <a href="http://www.vimeo.com/mostachomusic" target="_blank"> <i class="fa fa-vimeo-square" aria-hidden="true"></i> </a>
-      <a href="http://www.facebook.com/Mostachomusic" target="_blank"> <i class="fa fa-facebook-square" aria-hidden="true"></i> </a>
-    </div>
-
     <div class="more-container"> <i class="fa fa-angle-down more" aria-hidden="true"></i> </div>
   </div>
-  <div class="container-fluid about-us">
+  <div id="home" class="container-fluid mostacho">
+    <div class="row company">
+      <div class="col col-sm-12 col-md-10 col-md-offset-1">
+        <span><img src="assets/logo_only.png" width="130" style="vertical-align: bottom;">  music & sound es un estudio de audio dedicado a la composición, producción y grabación de música, post-producción de sonido, grabación de locutores y realización de doblajes para publicidad, videojuegos, cine, teatro y documentales.</span>
+      </div>
+    </div>
+  </div>
+  <div id="producciones" class="container-fluid producciones">
+    <div class="row">
+      <div class="col-md-1" style="width: 12.499999995%"></div>
+      <div class="col col-xs-1 col-md-3">
+        <iframe src="https://player.vimeo.com/video/182591386" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+      <div class="col col-xs-1 col-md-3">
+        <iframe src="https://player.vimeo.com/video/195035778" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+      <div class="col col-xs-1 col-md-3">
+        <iframe src="https://player.vimeo.com/video/142418858" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+    </div >
+    <div class="row">
+      <div class="col-md-1" style="width: 12.499999995%"></div>
+      <div class="col col-xs-1 col-md-3">
+        <iframe src="https://player.vimeo.com/video/182591383" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+      <div class="col col-xs-1 col-md-3">
+        <iframe src="https://player.vimeo.com/video/190760107" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+      <div class="col col-xs-1 col-md-3">
+        <iframe src="https://player.vimeo.com/video/197099464" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+    </div >
+    <div class="row">
+      <div class="col-md-1" style="width: 12.499999995%"></div>
+      <div class="col col-xs-1 col-md-3">
+        <iframe src="https://player.vimeo.com/video/177233522" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+      <div class="col col-xs-1 col-md-3">
+        <iframe src="https://player.vimeo.com/video/190872724" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+      <div class="col col-xs-1 col-md-3">
+        <iframe src="https://player.vimeo.com/video/152217017" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+    </div >
+  </div>
+  <div id="about" class="container-fluid about-us">
     <div class="row">
       <div class="col col-sm-12 col-md-4">
         <div class="content">

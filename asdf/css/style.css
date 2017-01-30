@@ -50,8 +50,18 @@ a, a:visited {
   line-height: 40px !important;
 }
 
+.logo-small {
+  height: 50px;
+  width: 198px;
+  background-image: url(../assets/logo_small.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .contact {
-  text-align: center;
+  color: #3a3a3a !important;
+  display: inline-block;
+  height: 53px;
 }
 
 .contact .description {
@@ -60,10 +70,11 @@ a, a:visited {
 }
 
 .contact a {
-  color: white;
+  color: #3a3a3a !important;
   display: inline-block;
   text-decoration: none;
-  font-size: 45px;
+  font-size: 35px;
+  line-height: 70px;
   margin: 0px 5px;
 }
 
@@ -113,4 +124,42 @@ a, a:visited {
 
 .about-us a, .about-us a:visited, .about-us a:hover {
   color: #333;
+}
+
+/* NAV */
+nav {
+  background: #D6FFD4 !important;
+  padding: 10px !important;
+}
+
+nav .custom-navbar-brand {
+  padding: 0px !important;
+}
+
+nav li a {
+  color: #3a3a3a !important;
+}
+
+.company {
+  color: #3a3a3a !important;
+  padding: 40px 10px;
+}
+
+.company span {
+  font-size: 14px;
+}
+
+.container-fluid.mostacho {
+  background-color: #ABFF9E;
+}
+
+/* Producciones */
+
+.producciones {
+  margin: 20px;
+}
+
+.producciones .col {
+  text-align: center;
+  padding: 10px 2px;
 }
