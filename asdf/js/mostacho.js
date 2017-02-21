@@ -11,3 +11,11 @@ $(function(){
         }
     })          
 });
+
+$(document).ready(function(){
+  $("nav a").on('click',function(){
+    var link = $(this).attr('href');
+    $('html,body').animate({scrollTop: ($(link).offset().top - 74)},'slow');
+    return false;
+  });
+});
