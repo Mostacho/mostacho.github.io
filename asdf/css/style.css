@@ -180,3 +180,7 @@ nav li a {
   left: 1.7% !important;
   right: 1.7% !important;
 }
+
+.vimeo-videos iframe {
+  width: 100%;
+}
