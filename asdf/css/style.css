@@ -5,7 +5,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   color: white;
-  font-family: Arial;
+  font-family: Helvetica, Arial;
 }
 
 a, a:visited {
@@ -23,7 +23,7 @@ a, a:visited {
 
 .logo {
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
   margin-top: 40px;
   width: 330px;
 }
@@ -183,4 +183,36 @@ nav li a {
 
 .vimeo-videos iframe {
   width: 100%;
+}
+
+.contacto-container {
+  margin: 70px 0px;
+  text-align: center;
+  color: white;
+}
+
+.contacto-container span {
+  display: block;
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+.contacto-container .span2 {
+  margin-top: 0px !important;
+}
+
+.contacto-container .fa {
+  font-size: 45px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.contacto-container .fa2 {
+  margin-bottom: 0px !important;
+}
+
+footer {
+  background-color: #D7E6D4;
+  font-size: 12px;
+  padding: 4px 20px;
 }
